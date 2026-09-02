@@ -1,26 +1,89 @@
 @import "tailwindcss";
+:root { --background: #edf1f5; --foreground: #172637; --surface: #fff; --muted: #536477; --line: #d4dce5; --accent: #ad410c; --selected: #fff3e9; }
+@theme inline { --color-background: var(--background); --color-foreground: var(--foreground); --font-sans: var(--font-geist-sans); --font-mono: var(--font-geist-mono); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-geist-sans), sans-serif; font-size: 1rem; }
+button, input { font: inherit; touch-action: manipulation; }
+button { cursor: pointer; }
+:focus-visible { outline: 3px solid #237cc2; outline-offset: 4px; }
+.topbar { background: #172637; color: white; padding: 1.15rem max(1.5rem, calc((100vw - 1360px) / 2)); display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { font-size: 1.25rem; font-weight: 650; letter-spacing: -.05em; }
+.brand span { color: #ffab70; margin: 0 .2rem; }
+.demo-badge { border: 1px solid #617080; padding: .3rem .65rem; border-radius: 4px; font-size: .875rem; }
+.workspace { width: min(1360px, 100%); margin: auto; padding: 2.5rem 1.5rem; }
+.intro { margin-bottom: 1.75rem; }
+.eyebrow { color: var(--muted); font: .75rem var(--font-geist-mono), monospace; letter-spacing: .13em; text-transform: uppercase; margin: 0 0 .6rem; }
+h1 { font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 650; letter-spacing: -.055em; margin: 0 0 .5rem; }
+h2 { font-size: 1.2rem; font-weight: 650; margin: 0; letter-spacing: -.025em; }
+p { line-height: 1.6; }
+.intro p:last-child { color: var(--muted); margin: 0; }
+.columns { display: grid; grid-template-columns: minmax(280px, .85fr) minmax(0, 1.35fr); gap: 1.5rem; align-items: start; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.catalog-tools { padding: 1.25rem; border-bottom: 1px solid var(--line); }
+.search-label { display: block; font-size: .875rem; font-weight: 600; margin-bottom: .55rem; }
+.search-input { background: #f6f8fa; border: 1px solid #a7b5c3; border-radius: 5px; width: 100%; padding: .8rem; }
+.count { color: var(--muted); font-size: .875rem; margin: .85rem 0 0; }
+.part-list { list-style: none; padding: 0; margin: 0; }
+.part-list li + li { border-top: 1px solid var(--line); }
+.part-button { display: flex; width: 100%; text-align: left; align-items: center; gap: 1rem; padding: 1.15rem 1.25rem; border: 0; border-left: 3px solid transparent; background: white; color: var(--foreground); }
+.part-button:hover { background: #f4f7fa; }
+.part-button[aria-pressed="true"] { background: var(--selected); border-left-color: var(--accent); }
+.part-mark { font: .875rem var(--font-geist-mono), monospace; border: 1px solid #b3bfcb; border-radius: 4px; min-width: 2.7rem; height: 2.7rem; display: grid; place-items: center; }
+.part-title { display: block; font-weight: 650; }
+.part-meta { display: block; font-size: .875rem; color: var(--muted); margin-top: .25rem; }
+.arrow { margin-left: auto; color: var(--accent); }
+.detail-heading { padding: 1.5rem; border-bottom: 1px solid var(--line); }
+.detail-heading h2 { font-size: 1.8rem; }
+.detail-heading p:last-child { color: var(--muted); margin: .5rem 0 0; }
+.detail-body { padding: 1.5rem; }
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0 0 1.5rem; }
+dt { color: var(--muted); font-size: .875rem; }
+dd { margin: .25rem 0 0; overflow-wrap: anywhere; }
+.spec-table { width: 100%; border-collapse: collapse; }
+.spec-table th, .spec-table td { border-bottom: 1px solid var(--line); padding: .75rem 0; }
+.spec-table th { text-align: left; font-weight: 400; color: var(--muted); }
+.spec-table td { text-align: right; font-family: var(--font-geist-mono), monospace; }
+.preview-section { margin-top: 1.5rem; }
+.preview-heading { display: flex; align-items: baseline; justify-content: space-between; gap: .75rem; padding: 1.15rem 1.5rem; border-bottom: 1px solid var(--line); }
+.preview-heading span { color: var(--muted); font-size: .875rem; }
+.label-stage { padding: 2rem; background-color: #e4eaf0; background-image: radial-gradient(#b3bfcb .7px, transparent .7px); background-size: 10px 10px; }
+.part-label { background: white; color: #111; border: 1.5px solid #111; max-width: 460px; margin: auto; padding: 1.1rem; box-shadow: 0 5px 12px #17263714; overflow-wrap: anywhere; }
+.label-top { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 2px solid #111; padding-bottom: .5rem; font: .75rem var(--font-geist-mono), monospace; text-transform: uppercase; }
+.label-title { font-size: 1.75rem; font-weight: 750; line-height: 1.2; margin: .75rem 0 .3rem; letter-spacing: -.04em; }
+.label-subtitle { margin: 0 0 .75rem; font-size: .875rem; }
+.label-specs { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem 1rem; margin: .8rem 0 0; }
+.label-specs dt { color: #444; font-size: .75rem; }
+.label-specs dd { font: .875rem var(--font-geist-mono), monospace; }
+.resistor-code { display: block; width: 100%; height: 64px; }
+.label-footer { border-top: 1px solid #111; margin-top: .85rem; padding-top: .5rem; font: .75rem var(--font-geist-mono), monospace; }
+.label-options { border: 0; margin: 0; padding: 1.25rem 1.5rem; display: flex; flex-wrap: wrap; gap: .85rem 1.2rem; }
+.label-options legend { float: left; width: 100%; font-weight: 600; margin-bottom: .8rem; font-size: .875rem; }
+.label-options label { display: flex; align-items: center; gap: .5rem; font-size: .875rem; min-height: 1.75rem; }
+input[type="checkbox"] { width: 1rem; height: 1rem; accent-color: var(--accent); }
+.empty { padding: 2rem 1.25rem; }
+.empty p { color: var(--muted); }
+.reset { color: var(--accent); border: 1px solid currentColor; background: white; border-radius: 4px; padding: .6rem .8rem; }
+.footnote { color: var(--muted); font-size: .875rem; margin: 1rem 0 0; }
+@media (max-width: 760px) { .columns { grid-template-columns: 1fr; } .workspace { padding: 1.5rem 1rem; } .topbar { padding: 1rem; } .label-stage { padding: 1.25rem; } .preview-heading { flex-wrap: wrap; } }
+@media (max-width: 380px) { .facts, .label-specs { grid-template-columns: 1fr; } }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+.resistor-label { max-width: 460px; margin: auto; background: white; color: #16191d; border: 2px solid #16191d; box-shadow: 0 5px 12px #17263714; container-type: inline-size; }
+.resistor-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; background: #172637; color: white; padding: 10px 18px; }
+.resistor-heading h3 { margin: 0; font-size: clamp(32px, 12cqi, 58px); line-height: 1.1; font-weight: 750; letter-spacing: -.04em; }
+.resistor-heading span { font-size: clamp(16px, 5cqi, 24px); white-space: nowrap; }
+.resistor-content { padding: 14px 18px; }
+.resistor-identity { display: flex; flex-direction: column; gap: 3px; }
+.resistor-identity strong { font-size: clamp(14px, 4cqi, 18px); letter-spacing: .09em; }
+.resistor-identity span { font: clamp(10px, 3.5cqi, 16px) var(--font-geist-mono), monospace; overflow-wrap: anywhere; }
+.five-band { width: 100%; height: auto; display: block; margin-top: 12px; }
+.resistor-symbols { display: block; width: 65%; max-width: 250px; height: auto; margin: 0 auto 10px; }
+.resistor-description { background: #172637; color: white; text-align: center; margin: 8px -18px 0; padding: 5px 8px; font-size: clamp(12px, 4cqi, 18px); font-weight: 650; }
+.resistor-bottom { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding-top: 12px; }
+.resistor-specs { flex: 1; min-width: 0; }
+.resistor-specs p { margin: 0 0 7px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: clamp(10px, 3.5cqi, 15px); }
+.resistor-specs small { display: block; font-size: clamp(9px, 2.8cqi, 12px); margin-top: 12px; }
+.resistor-qr { flex: 0 0 32%; max-width: 140px; color: inherit; text-decoration: none; text-align: center; }
+.resistor-qr svg { display: block; width: 100%; height: auto; }
+.resistor-qr span { font-size: clamp(9px, 2.8cqi, 12px); }
+.source-note { font-size: .875rem; color: var(--muted); }
+.source-note a { color: #81400c; text-decoration: underline; }
