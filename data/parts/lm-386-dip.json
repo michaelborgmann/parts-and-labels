@@ -1,0 +1,15 @@
+{
+  "id": "amplifier-10494",
+  "type": "amplifier",
+  "name": "LM386",
+  "quantity": 2,
+  "specifications": {
+    "form": "ic",
+    "channelCount": 1,
+    "package": "DIP-8"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/audio-ic_1-kanal_dip-8-10494",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A200/LM386.pdf"
+  ]
+}

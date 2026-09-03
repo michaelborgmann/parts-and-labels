@@ -1,0 +1,18 @@
+{
+  "id": "resistor-11734",
+  "type": "resistor",
+  "name": "330 kΩ",
+  "quantity": 10,
+  "specifications": {
+    "resistanceOhms": 330000,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "manufacturer": "YAGEO",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_330_kohm_0207_0_6_w_1_-11734",
+  "manufacturerPartNumber": "MF0207FTE52-330K",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+  ]
+}

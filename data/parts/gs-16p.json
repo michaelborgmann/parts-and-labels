@@ -1,0 +1,12 @@
+{
+  "id": "ic-socket-8209",
+  "type": "ic-socket",
+  "name": "GS 16P",
+  "quantity": 5,
+  "specifications": {
+    "pinCount": 16,
+    "contactType": "machined",
+    "contactPlating": "gold"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/ic-sockel_16-polig_superflach_gedreht_vergold_-8209"
+}

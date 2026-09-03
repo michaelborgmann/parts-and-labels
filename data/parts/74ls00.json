@@ -1,0 +1,22 @@
+{
+  "id": "u-002",
+  "type": "logic",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "74LS00",
+  "name": "74LS00",
+  "quantity": 2,
+  "specifications": {
+    "family": "74LS",
+    "function": "nand",
+    "gateCount": 4,
+    "inputsPerGate": 2,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 4.75,
+    "supplyVoltageMaxVolts": 5.25
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A200/LS00_REN.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/A200/LS00_SMDLS00_REN.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/nand-gate_2-input_4_75_5_25_v_dil-14-10584"
+}

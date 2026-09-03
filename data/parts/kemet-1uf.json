@@ -1,0 +1,22 @@
+{
+  "id": "c-011",
+  "type": "capacitor",
+  "manufacturer": "KEMET",
+  "manufacturerPartNumber": "C330C105K5R5TA7301",
+  "name": "1 µF",
+  "specifications": {
+    "capacitanceFarads": 0.000001,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "ratedVoltageVolts": 50,
+    "dielectric": "X7R",
+    "leadSpacingMm": 5.08
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/KEM_C3XX_X7R_DB-EN.pdf"
+  ],
+  "quantity": 5,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_1_0_f_50v_125_c-206882"
+}

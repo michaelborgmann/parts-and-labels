@@ -1,0 +1,12 @@
+{
+  "id": "socket-003",
+  "type": "ic-socket",
+  "name": "GS 8",
+  "specifications": {
+    "pinCount": 8,
+    "rowSpacingMm": 7.62,
+    "contactType": "dual-leaf"
+  },
+  "quantity": 10,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/ic-sockel_8-polig_doppelter_federkontakt-8230"
+}

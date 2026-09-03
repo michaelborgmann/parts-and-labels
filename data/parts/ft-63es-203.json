@@ -1,0 +1,17 @@
+{
+  "id": "potentiometer-428221",
+  "type": "potentiometer",
+  "name": "FT-63ES-203",
+  "quantity": 1,
+  "specifications": {
+    "resistanceOhms": 20000,
+    "gangCount": 1,
+    "style": "trimmer"
+  },
+  "manufacturer": "NIDEC COMPONENTS",
+  "manufacturerPartNumber": "FT-63ES-203",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/praezisionspotentiometer_trimmer_stehend_20_kohm-428221",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/C700/FT63ES203.pdf"
+  ]
+}

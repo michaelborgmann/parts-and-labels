@@ -1,0 +1,18 @@
+{
+  "id": "audio-001",
+  "type": "audio-module",
+  "manufacturer": "PJRC",
+  "name": "Teensy Audio / MicroSD",
+  "quantity": 1,
+  "specifications": {
+    "codec": "SGTL5000",
+    "compatibleWith": [
+      "Teensy 4.0",
+      "Teensy 4.1"
+    ],
+    "sampleRateHz": 44100,
+    "bitDepth": 16
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/teensy_shield_-_microsd_audio_f_teensy_4_0-275591"
+}
+

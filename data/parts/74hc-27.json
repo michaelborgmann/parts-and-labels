@@ -1,0 +1,21 @@
+{
+  "id": "logic-3185",
+  "type": "logic",
+  "name": "74HC27",
+  "quantity": 2,
+  "specifications": {
+    "family": "74HC",
+    "function": "nor",
+    "gateCount": 3,
+    "inputsPerGate": 3,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 2,
+    "supplyVoltageMaxVolts": 6
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/nor-gate_3-input_2_6_v_dil-14-3185",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "SN74HC27NR",
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/sn74hc27.pdf"
+  ]
+}

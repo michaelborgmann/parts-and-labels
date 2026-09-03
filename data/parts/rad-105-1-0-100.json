@@ -1,0 +1,19 @@
+{
+  "id": "capacitor-42393",
+  "type": "capacitor",
+  "name": "1 µF",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 0.000001,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 100,
+    "leadSpacingMm": 2.5,
+    "tolerancePercent": 20
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_1_0_f_100v_rm2_5_1000h_105_c_20_-42393",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/RAD105_Serie.pdf"
+  ]
+}

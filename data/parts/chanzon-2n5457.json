@@ -1,0 +1,11 @@
+{
+  "id": "chanzon-2n5457",
+  "type": "jfet",
+  "name": "2N5457",
+  "quantity": 10,
+  "specifications": {
+    "channel": "n-channel",
+    "package": "TO-92"
+  },
+  "link": "https://www.amazon.de/dp/B08M3YJR9Z"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "r-011",
+  "type": "resistor",
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0207FTE52-220K",
+  "name": "220 kΩ",
+  "specifications": {
+    "resistanceOhms": 220000,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf"
+  ],
+  "quantity": 30,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_220_kohm_0207_0_6_w_1_-11628"
+}

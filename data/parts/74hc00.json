@@ -1,0 +1,21 @@
+{
+  "id": "u-001",
+  "type": "logic",
+  "name": "74HC00",
+  "quantity": 2,
+  "specifications": {
+    "family": "74HC",
+    "function": "nand",
+    "gateCount": 4,
+    "inputsPerGate": 2,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 2,
+    "supplyVoltageMaxVolts": 6
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A200/DS_NXP_74HC00.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/A200/DS_STM_M74HC00.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/A200/U74HC00_UTC.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/4-fach_2_eingangs-nand-gatter_2_6_v_dil-14-3119"
+}

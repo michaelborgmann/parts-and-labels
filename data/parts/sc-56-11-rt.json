@@ -1,0 +1,18 @@
+{
+  "id": "seven-segment-54120",
+  "type": "seven-segment",
+  "name": "SC56-11EWA",
+  "quantity": 3,
+  "specifications": {
+    "digitCount": 1,
+    "commonPin": "cathode",
+    "color": "red",
+    "digitHeightMm": 14.2
+  },
+  "manufacturer": "KINGBRIGHT",
+  "manufacturerPartNumber": "SC56-11EWA",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/7-segment-anzeige_rot_14_2mm_gem_kathode-54120",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A500/SC56-11EWA%28Ver.13%29.pdf"
+  ]
+}

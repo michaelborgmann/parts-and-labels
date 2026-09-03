@@ -1,0 +1,19 @@
+{
+  "id": "d-001",
+  "type": "led",
+  "manufacturer": "KINGBRIGHT",
+  "manufacturerPartNumber": "L-7113GD",
+  "name": "L-7113GD",
+  "quantity": 10,
+  "specifications": {
+    "color": "green",
+    "diameterMm": 5,
+    "mounting": "through-hole",
+    "luminousIntensityMillicandelas": 20,
+    "viewingAngleDegrees": 30
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A500/RLL-7113GD_DATA_E.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/led_5_mm_bedrahtet_gruen_20_mcd_30_-230939"
+}

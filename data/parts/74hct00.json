@@ -1,0 +1,18 @@
+{
+  "id": "u-003",
+  "type": "logic",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "SN74HCT00N",
+  "name": "74HCT00",
+  "quantity": 4,
+  "specifications": {
+    "family": "74HCT",
+    "function": "nand",
+    "gateCount": 4,
+    "inputsPerGate": 2,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 4.5,
+    "supplyVoltageMaxVolts": 5.5
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/nand-gate_2-input_4_5_5_5_v_dil-14-3303"
+}

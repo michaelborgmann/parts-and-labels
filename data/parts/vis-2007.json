@@ -1,0 +1,13 @@
+{
+  "id": "speaker-204620",
+  "type": "speaker",
+  "name": "FR 8 · 4 Ω",
+  "quantity": 2,
+  "specifications": {
+    "impedanceOhms": 4,
+    "ratedPowerWatts": 10
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/breitbandlautsprecher_fr_8_10_w_4_ohm-204620",
+  "manufacturer": "VISATON",
+  "manufacturerPartNumber": "2007"
+}

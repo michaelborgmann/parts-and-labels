@@ -1,0 +1,21 @@
+{
+  "id": "capacitor-228371",
+  "type": "capacitor",
+  "name": "15 µF",
+  "quantity": 2,
+  "specifications": {
+    "capacitanceFarads": 0.000015,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2.5,
+    "tolerancePercent": 20
+  },
+  "manufacturer": "PANASONIC",
+  "manufacturerPartNumber": "EEAGA1H150",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_15_f_50_v_rm_2_5_105_c_1000_h_20_-228371",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/A_GA_ENG_TDS.pdf"
+  ]
+}

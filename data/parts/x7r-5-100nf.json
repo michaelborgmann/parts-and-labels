@@ -1,0 +1,16 @@
+{
+  "id": "c-012",
+  "type": "capacitor",
+  "name": "100 nF",
+  "specifications": {
+    "capacitanceFarads": 1e-7,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "dielectric": "X7R",
+    "leadSpacingMm": 5
+  },
+  "quantity": 10,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_100_nf_50_100_v_x7r_10_rm_5_0-22865"
+}

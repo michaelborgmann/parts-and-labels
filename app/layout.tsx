@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { defaultLocale, getMessages } from "../lib/i18n";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,13 +15,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Parts + Labels",
-  description: "Bauteile durchsuchen, technische Daten ansehen und Labels gestalten.",
+  description: getMessages(defaultLocale).metadata.description,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
-      lang="de"
+      lang={defaultLocale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

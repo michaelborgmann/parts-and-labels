@@ -1,0 +1,18 @@
+{
+  "id": "q-002",
+  "type": "bjt",
+  "manufacturer": "CDIL",
+  "manufacturerPartNumber": "BC547B",
+  "name": "BC547B",
+  "quantity": 10,
+  "specifications": {
+    "polarity": "npn",
+    "package": "TO-92",
+    "maxCollectorEmitterVoltageVolts": 45,
+    "maxCollectorCurrentAmps": 0.1
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A100/BC546_48-CDIL.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/bipolartransistor_npn_45v_0_1a_0_5w_to-92-5006"
+}

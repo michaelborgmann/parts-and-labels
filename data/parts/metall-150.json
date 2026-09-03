@@ -1,0 +1,18 @@
+{
+  "id": "resistor-11527",
+  "type": "resistor",
+  "name": "150 Ω",
+  "quantity": 10,
+  "specifications": {
+    "resistanceOhms": 150,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_150_ohm_0207_0_6_w_1_-11527",
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0207FTE52-150R",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "voltage-regulator-399468",
+  "type": "voltage-regulator",
+  "name": "LM7805CT",
+  "quantity": 1,
+  "specifications": {
+    "technology": "linear",
+    "outputVoltageVolts": 5,
+    "package": "TO-220"
+  },
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "LM7805CT",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/linearer_spannungsregler_1_5a_5_v_to-220-399468",
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/lm340.pdf"
+  ]
+}

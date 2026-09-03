@@ -1,0 +1,18 @@
+{
+  "id": "resistor-11784",
+  "type": "resistor",
+  "name": "4.7 kΩ",
+  "quantity": 10,
+  "specifications": {
+    "resistanceOhms": 4700,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "manufacturer": "YAGEO",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_4_70_kohm_0207_0_6_w_1_-11784",
+  "manufacturerPartNumber": "MF0207FTE52-4K7",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+  ]
+}

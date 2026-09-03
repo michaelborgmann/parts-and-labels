@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "sources": [],
+  "suppliers": [],
+  "label": {},
+  "facts": [],
+  "notices": [],
+  "sections": [],
+  "id": "D-001",
+  "kind": "generic",
+  "example": true,
+  "name": "LED rot",
+  "category": "LED",
+  "mark": "D",
+  "shortDescription": "LED",
+  "description": "Rote Anzeige-LED mit bedrahteten Anschlüssen.",
+  "package": {
+    "size": "Rund · THT"
+  },
+  "specifications": [
+    {
+      "label": "Farbe",
+      "value": "Rot"
+    },
+    {
+      "label": "Durchmesser",
+      "value": "5 mm"
+    }
+  ]
+}

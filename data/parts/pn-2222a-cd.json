@@ -1,0 +1,18 @@
+{
+  "id": "bjt-353600",
+  "type": "bjt",
+  "name": "PN2222A",
+  "quantity": 10,
+  "specifications": {
+    "polarity": "npn",
+    "package": "TO-92",
+    "maxCollectorEmitterVoltageVolts": 40,
+    "maxCollectorCurrentAmps": 0.6
+  },
+  "manufacturer": "CDIL",
+  "manufacturerPartNumber": "PN2222A",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/bipolartransistor_npn_40v_0_6a_0_625w_to-92-353600",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/C700/PN2222.pdf"
+  ]
+}

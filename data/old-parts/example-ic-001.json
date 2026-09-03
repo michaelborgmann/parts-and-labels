@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "sources": [],
+  "suppliers": [],
+  "label": {},
+  "facts": [],
+  "notices": [],
+  "sections": [],
+  "id": "IC-001",
+  "kind": "generic",
+  "example": true,
+  "name": "NE555",
+  "category": "IC",
+  "mark": "IC",
+  "shortDescription": "IC",
+  "description": "Timer-Baustein für Taktgeber, Impulse und Zeitverzögerungen.",
+  "package": {
+    "size": "DIP-8 · THT"
+  },
+  "specifications": [
+    {
+      "label": "Funktion",
+      "value": "Timer"
+    },
+    {
+      "label": "Anschlüsse",
+      "value": "8"
+    }
+  ]
+}

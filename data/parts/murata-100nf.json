@@ -1,0 +1,20 @@
+{
+  "id": "c-001",
+  "type": "capacitor",
+  "manufacturer": "MURATA",
+  "manufacturerPartNumber": "RDER71H104K0S1H03A",
+  "name": "100 nF",
+  "quantity": 10,
+  "specifications": {
+    "capacitanceFarads": 1e-7,
+    "tolerancePercent": 10,
+    "ratedVoltageVolts": 50,
+    "dielectric": "X7R",
+    "leadSpacingMm": 2.5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-2.5_100N_MUR.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-25_DB-EN.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_100_nf_50_v_x7r_10_rm_2_5_ammo-22853"
+}

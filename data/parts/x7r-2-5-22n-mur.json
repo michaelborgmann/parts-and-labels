@@ -1,0 +1,22 @@
+{
+  "id": "capacitor-22856",
+  "type": "capacitor",
+  "name": "22 nF",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 2.2e-8,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "dielectric": "X7R",
+    "leadSpacingMm": 2.5
+  },
+  "manufacturer": "MURATA",
+  "manufacturerPartNumber": "RDER71H223K0S1H03A",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-keramikkondensator_22n_10_-22856",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-2.5_22N_MUR.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-25_DB-EN.pdf"
+  ]
+}

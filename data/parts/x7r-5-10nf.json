@@ -1,0 +1,17 @@
+{
+  "id": "c-010",
+  "type": "capacitor",
+  "name": "10 nF",
+  "specifications": {
+    "capacitanceFarads": 1e-8,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "ratedVoltageVolts": 100,
+    "dielectric": "X7R",
+    "leadSpacingMm": 5
+  },
+  "quantity": 10,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/mlcc_10n_100v_rm5_x7r_10_-22866"
+}

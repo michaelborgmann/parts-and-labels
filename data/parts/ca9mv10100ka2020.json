@@ -1,0 +1,17 @@
+{
+  "id": "potentiometer-266602",
+  "type": "potentiometer",
+  "name": "CA9MV10100KA2020",
+  "quantity": 1,
+  "specifications": {
+    "resistanceOhms": 100000,
+    "gangCount": 1,
+    "style": "trimmer"
+  },
+  "manufacturer": "ARAGONESA DE COMPONENTES",
+  "manufacturerPartNumber": "CA9MV10-100KA2020",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/einstellpotentiometer_liegend_100_kohm_9_mm-266602",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/X200/02-ACP-CA9-CE9.pdf"
+  ]
+}

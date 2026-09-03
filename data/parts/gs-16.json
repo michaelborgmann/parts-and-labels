@@ -1,0 +1,14 @@
+{
+  "id": "ic-socket-8208",
+  "type": "ic-socket",
+  "name": "GS 16",
+  "quantity": 5,
+  "specifications": {
+    "pinCount": 16,
+    "contactType": "dual-leaf"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/ic-sockel_16-polig_doppelter_federkontakt-8208",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/C130/11167853ICSADSX.JPG.PDF"
+  ]
+}

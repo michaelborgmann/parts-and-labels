@@ -1,0 +1,20 @@
+{
+  "id": "capacitor-359170",
+  "type": "capacitor",
+  "name": "10 µF",
+  "quantity": 10,
+  "specifications": {
+    "capacitanceFarads": 0.00001,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2
+  },
+  "manufacturer": "SAMWHA",
+  "manufacturerPartNumber": "RD1H106M05011BB180",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_10_f_50_v_105_rm_2-359170",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/RD.pdf"
+  ]
+}

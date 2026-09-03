@@ -1,0 +1,16 @@
+{
+  "id": "diode-219454",
+  "type": "diode",
+  "name": "1N4148",
+  "quantity": 10,
+  "specifications": {
+    "function": "switching",
+    "package": "DO-35"
+  },
+  "manufacturer": "DIOTEC",
+  "manufacturerPartNumber": "1N4148",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/schalt-diode_100_v_150_ma_do-35-219454",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A400/DIOTEC_1N4148_ENG_TDS.pdf"
+  ]
+}

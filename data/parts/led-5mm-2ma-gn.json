@@ -1,0 +1,19 @@
+{
+  "id": "led-21625",
+  "type": "led",
+  "name": "L-53LGD",
+  "quantity": 10,
+  "specifications": {
+    "color": "green",
+    "diameterMm": 5,
+    "mounting": "through-hole",
+    "luminousIntensityMillicandelas": 3.2,
+    "viewingAngleDegrees": 60
+  },
+  "manufacturer": "KINGBRIGHT",
+  "manufacturerPartNumber": "L-53LGD",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/led_5_mm_bedrahtet_gruen_3_2_mcd_60_-21625",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A500/LED5MM2MAGE_LED5MM2MAGN_LED5MM2MART~KIN.pdf"
+  ]
+}

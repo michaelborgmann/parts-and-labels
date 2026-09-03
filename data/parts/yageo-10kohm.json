@@ -1,0 +1,18 @@
+{
+  "id": "r-002",
+  "type": "resistor",
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0207FTE52-10K",
+  "name": "10 kΩ",
+  "quantity": 50,
+  "specifications": {
+    "resistanceOhms": 10000,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_10_0_kohm_0207_0_6_w_1_-11449"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "q-001",
+  "type": "bjt",
+  "manufacturer": "CDIL",
+  "manufacturerPartNumber": "2N3904",
+  "name": "2N3904",
+  "quantity": 10,
+  "specifications": {
+    "polarity": "npn",
+    "package": "TO-92",
+    "maxCollectorEmitterVoltageVolts": 40,
+    "maxCollectorCurrentAmps": 0.2
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A100/2N3903_04-CDIL.PDF"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/bipolartransistor_npn_40v_0_2a_0_5w_to-92-2020"
+}

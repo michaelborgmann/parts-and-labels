@@ -1,0 +1,14 @@
+{
+  "id": "amplifier-323066",
+  "type": "amplifier",
+  "name": "PAM8403",
+  "quantity": 1,
+  "specifications": {
+    "form": "module",
+    "channelCount": 2,
+    "amplifierClass": "D",
+    "chip": "PAM8403"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_audioverstaerker_klasse_d_pam8403-323066",
+  "manufacturerPartNumber": "XH-M179"
+}

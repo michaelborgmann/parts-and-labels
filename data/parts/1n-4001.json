@@ -1,0 +1,16 @@
+{
+  "id": "diode-1723",
+  "type": "diode",
+  "name": "1N4001",
+  "quantity": 10,
+  "specifications": {
+    "function": "rectifier",
+    "package": "DO-41"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/gleichrichterdiode_50_v_1_a_do-41-1723",
+  "manufacturer": "LUNSURE",
+  "manufacturerPartNumber": "1N4001",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A400/1N4001-1N4007_LUNSURE.pdf"
+  ]
+}

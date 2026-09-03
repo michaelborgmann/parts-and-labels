@@ -1,0 +1,25 @@
+{
+  "id": "s-001",
+  "type": "switch",
+  "name": "DTS-61K",
+  "manufacturer": "DIPTRONICS",
+  "manufacturerPartNumber": "DTS-61K",
+  "quantity": 6,
+  "specifications": {
+    "style": "tactile",
+    "action": "momentary",
+    "contactForm": "normally-open",
+    "poleCount": 1,
+    "mounting": "through-hole",
+    "dimensionsMm": {
+      "length": 6,
+      "width": 6,
+      "height": 4.3
+    }
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/C700/DIP%20DTS-61K.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/C200/DIP_DTS-XX.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/kurzhubtaster_printmontage_1_schliesser_6_x_6_x_4_3_mm-360041"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "u-007",
+  "type": "timer",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "NE555P",
+  "name": "NE555",
+  "specifications": {
+    "channelCount": 1,
+    "technology": "bipolar",
+    "package": "DIP-8",
+    "supplyVoltageMinVolts": 4.5,
+    "supplyVoltageMaxVolts": 16
+  },
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/ne555.pdf"
+  ],
+  "quantity": 5,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/timer-ic_typ_555_dip-8-13397"
+}

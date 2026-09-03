@@ -1,0 +1,18 @@
+{
+  "id": "pot-002",
+  "type": "potentiometer",
+  "manufacturer": "ALPS",
+  "manufacturerPartNumber": "RK09K1130A0H",
+  "name": "RK09K113-LIN10K",
+  "quantity": 16,
+  "specifications": {
+    "resistanceOhms": 10000,
+    "taper": "linear",
+    "gangCount": 1,
+    "shaftDiameterMm": 6
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/ALPS-RK09K.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/drehpotentiometer_mono_10_kohm_linear_6_mm-73815"
+}

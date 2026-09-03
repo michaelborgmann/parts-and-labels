@@ -1,0 +1,19 @@
+{
+  "id": "led-21629",
+  "type": "led",
+  "name": "L-53LYD",
+  "quantity": 10,
+  "specifications": {
+    "color": "yellow",
+    "diameterMm": 5,
+    "mounting": "through-hole",
+    "luminousIntensityMillicandelas": 3.2,
+    "viewingAngleDegrees": 60
+  },
+  "manufacturer": "KINGBRIGHT",
+  "manufacturerPartNumber": "L-53LYD",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/led_5_mm_bedrahtet_gelb_3_2_mcd_60_-21629",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A500/LED5MM2MAGE_LED5MM2MAGN_LED5MM2MART~KIN.pdf"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "socket-001",
+  "type": "ic-socket",
+  "name": "GS 14P",
+  "quantity": 10,
+  "specifications": {
+    "pinCount": 14,
+    "rowSpacingMm": 7.62,
+    "contactType": "machined",
+    "contactPlating": "gold"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/ic-sockel_14-polig_superflach_gedreht_vergold_-8207"
+}

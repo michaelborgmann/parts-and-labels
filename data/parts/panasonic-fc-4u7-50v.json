@@ -1,0 +1,20 @@
+{
+  "id": "c-006",
+  "type": "capacitor",
+  "manufacturer": "PANASONIC",
+  "manufacturerPartNumber": "EEUFC1H4R7H",
+  "name": "4.7 µF",
+  "specifications": {
+    "capacitanceFarads": 0.0000047,
+    "technology": "aluminum-electrolytic",
+    "mounting": "through-hole",
+    "tolerancePercent": 20,
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2.5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/A-FC_ENG_TDS.pdf"
+  ],
+  "quantity": 5,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_4_7_f_50_v_rm_2_5_105_c_1000_h_20_-228387"
+}

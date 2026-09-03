@@ -1,0 +1,21 @@
+{
+  "id": "capacitor-200427",
+  "type": "capacitor",
+  "name": "68 µF",
+  "quantity": 2,
+  "specifications": {
+    "capacitanceFarads": 0.000068,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2.5,
+    "tolerancePercent": 20
+  },
+  "manufacturer": "PANASONIC",
+  "manufacturerPartNumber": "EEUHD1H680",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_68_f_50v_rm2_5_1000h_105_c_20_-200427",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/EEUHD_ENG_TDS.pdf"
+  ]
+}

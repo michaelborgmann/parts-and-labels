@@ -1,0 +1,16 @@
+{
+  "id": "speaker-66792",
+  "type": "speaker",
+  "name": "K 50 · 8 Ω",
+  "quantity": 2,
+  "specifications": {
+    "impedanceOhms": 8,
+    "ratedPowerWatts": 2
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/breitbandlautsprecher_k_50_2w_8ohm-66792",
+  "manufacturer": "VISATON",
+  "manufacturerPartNumber": "2901",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/I900/VISATON_2899_2901_DB-DE.pdf"
+  ]
+}

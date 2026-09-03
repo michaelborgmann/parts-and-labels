@@ -1,0 +1,22 @@
+{
+  "id": "c-002",
+  "type": "capacitor",
+  "manufacturer": "KEMET",
+  "manufacturerPartNumber": "C320C104K5R5TA7301",
+  "name": "100 nF",
+  "quantity": 2,
+  "specifications": {
+    "capacitanceFarads": 1e-7,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "ratedVoltageVolts": 50,
+    "dielectric": "X7R",
+    "leadSpacingMm": 2.54
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/KEM_C3XX_X7R_DB-EN.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_100nf_50v_125_c-206877"
+}

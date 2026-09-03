@@ -87,3 +87,39 @@ input[type="checkbox"] { width: 1rem; height: 1rem; accent-color: var(--accent);
 .resistor-qr span { font-size: clamp(9px, 2.8cqi, 12px); }
 .source-note { font-size: .875rem; color: var(--muted); }
 .source-note a { color: #81400c; text-decoration: underline; }
+
+.resistor-details { margin-top: 1.25rem; overflow-wrap: anywhere; }
+.resistor-details a { color: #81400c; text-decoration: underline; text-underline-offset: .15em; }
+.technical-facts { margin-top: 1.25rem; }
+.technical-note { color: var(--muted); font-size: .875rem; }
+.data-conflict { background: #fff4df; border: 1px solid #bd8a27; border-left-width: 4px; border-radius: 4px; padding: .9rem 1rem; margin: 1.25rem 0; color: #553707; }
+.data-conflict p { font-size: .875rem; margin: .35rem 0 0; }
+.technical-section { border-top: 1px solid var(--line); padding: .85rem 0; }
+.technical-section summary { font-weight: 600; cursor: pointer; padding: .25rem 0; }
+.technical-section p, .technical-section dd, .technical-section address { font-size: .875rem; }
+.technical-section h3 { font-size: 1rem; margin-top: 1.25rem; }
+.technical-section address { font-style: normal; line-height: 1.7; }
+.source-observations { display: grid; gap: .85rem; margin: 1rem 0; }
+.source-observations dd { line-height: 1.5; }
+.dimension-source { padding: .25rem 0; }
+.technical-sources { padding-left: 1.25rem; }
+.technical-sources li { margin: .9rem 0; }
+.technical-sources p { color: var(--muted); margin: .3rem 0; }
+.fixed-label { max-width: 460px; margin: auto; border: 2px solid #172637; background: white; color: #172637; overflow-wrap: anywhere; }
+.fixed-label-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 1rem; padding: .8rem 1rem; background: #172637; color: white; }
+.fixed-label-heading h3 { margin: 0; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; }
+.fixed-label-heading span { font-size: 1.25rem; white-space: nowrap; }
+.fixed-label-body { padding: 1rem; }
+.fixed-label-identity { display: flex; flex-direction: column; gap: .25rem; font-size: .875rem; }
+.fixed-label-identity strong { font-size: 1rem; }
+.fixed-label-type { margin: .75rem 0; font-weight: 600; }
+.fixed-label-bands { display: block; width: 100%; height: auto; }
+.fixed-label-symbols { display: block; width: 85%; max-width: 300px; height: auto; margin: .5rem auto; }
+.fixed-label-specs { display: grid; gap: .5rem; margin: .75rem 0; }
+.fixed-label-specs > div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem; }
+.fixed-label-specs dt { font-size: .875rem; }
+.fixed-label-specs dd { margin: 0; font-weight: 600; }
+.fixed-label-footer { display: flex; align-items: end; justify-content: space-between; gap: .75rem; margin-top: .75rem; padding-top: .75rem; border-top: 1px solid #172637; }
+.fixed-label-footer small, .fixed-label-note { font-size: .875rem; }
+.fixed-label-qr { width: 112px; max-width: 45%; color: inherit; text-align: center; font-size: .875rem; }
+.fixed-label-qr svg { display: block; width: 100%; height: auto; }

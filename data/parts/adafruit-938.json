@@ -1,0 +1,21 @@
+{
+  "id": "display-001",
+  "type": "display",
+  "manufacturer": "Adafruit",
+  "manufacturerPartNumber": "938",
+  "name": "OLED 1.3″ · 128 × 64",
+  "quantity": 1,
+  "specifications": {
+    "technology": "OLED",
+    "widthPixels": 128,
+    "heightPixels": 64,
+    "diagonalInches": 1.3,
+    "controller": "SSD1306",
+    "interfaces": [
+      "I²C",
+      "SPI"
+    ]
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/entwicklerboards_-_display_oled_1_3_128x64_pixel_ssd1306-235524"
+}
+

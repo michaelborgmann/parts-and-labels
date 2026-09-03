@@ -1,0 +1,20 @@
+{
+  "id": "capacitor-359153",
+  "type": "capacitor",
+  "name": "100 µF",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 0.0001,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 35,
+    "leadSpacingMm": 2.5
+  },
+  "manufacturer": "SAMWHA",
+  "manufacturerPartNumber": "RD1V107M6L011MBB180",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_100_f_35_v_105_rm_2_5-359153",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/RD.pdf"
+  ]
+}

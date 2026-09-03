@@ -1,0 +1,22 @@
+{
+  "id": "capacitor-22860",
+  "type": "capacitor",
+  "name": "47 nF",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 4.7e-8,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "dielectric": "X7R",
+    "leadSpacingMm": 2.5
+  },
+  "manufacturer": "MURATA",
+  "manufacturerPartNumber": "RDER71H473K0S1H03A",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-keramikkondensator_47n_10_-22860",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-2.5_47N_MUR.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-25_DB-EN.pdf"
+  ]
+}

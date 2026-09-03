@@ -1,0 +1,17 @@
+{
+  "id": "nichicon-ues1h1r0",
+  "type": "capacitor",
+  "name": "1 µF · Bipolar",
+  "manufacturer": "NICHICON",
+  "manufacturerPartNumber": "UES1H1R0",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 0.000001,
+    "technology": "aluminum-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2
+  },
+  "link": "https://www.amazon.de/dp/B0DQDBBH3B"
+}

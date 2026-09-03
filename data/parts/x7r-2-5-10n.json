@@ -1,0 +1,19 @@
+{
+  "id": "capacitor-22854",
+  "type": "capacitor",
+  "name": "10 nF",
+  "quantity": 10,
+  "specifications": {
+    "capacitanceFarads": 1e-8,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "tolerancePercent": 10,
+    "dielectric": "X7R",
+    "leadSpacingMm": 2.5
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-keramikkondensator_10n_10_-22854",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/X7R-25_DB-EN.pdf"
+  ]
+}

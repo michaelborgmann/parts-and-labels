@@ -1,0 +1,19 @@
+{
+  "id": "pot-001",
+  "type": "potentiometer",
+  "manufacturer": "ALPS",
+  "name": "RK09K113-LOG10K",
+  "quantity": 2,
+  "specifications": {
+    "resistanceOhms": 10000,
+    "taper": "logarithmic",
+    "gangCount": 1,
+    "shaftDiameterMm": 6
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/203320RK09K11310KA.PDF",
+    "https://cdn-reichelt.de/documents/datenblatt/B400/ALPS-RK09K.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/drehpotentiometer_mono_10_kohm_logarithmisch_6_mm-73819"
+}
+

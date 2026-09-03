@@ -1,0 +1,18 @@
+{
+  "id": "potentiometer-110251",
+  "type": "potentiometer",
+  "name": "ACP 9-L 10K",
+  "quantity": 1,
+  "specifications": {
+    "resistanceOhms": 10000,
+    "gangCount": 1,
+    "style": "trimmer",
+    "taper": "linear"
+  },
+  "manufacturer": "ARAGONESA DE COMPONENTES",
+  "manufacturerPartNumber": "CA9PV10-10KA2020",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/einstellpotentiometer_liegend_10_kohm_9_mm-110251",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/DS_ACP_CA9.pdf"
+  ]
+}

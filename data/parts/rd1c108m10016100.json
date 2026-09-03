@@ -1,0 +1,20 @@
+{
+  "id": "capacitor-359139",
+  "type": "capacitor",
+  "name": "1000 µF",
+  "quantity": 2,
+  "specifications": {
+    "capacitanceFarads": 0.001,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 16,
+    "leadSpacingMm": 5
+  },
+  "manufacturer": "SAMWHA",
+  "manufacturerPartNumber": "RD1C108M10016BB100",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_1000_f_16_v_105_rm_5-359139",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/RD.pdf"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "counter-3212",
+  "type": "counter",
+  "name": "74HC393",
+  "quantity": 2,
+  "specifications": {
+    "function": "binary",
+    "counterCount": 2,
+    "bitsPerCounter": 4,
+    "package": "DIP-14"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/counter_4-bit_2_6_v_dil-14-3212",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A240/74HC393_74HCT393~PHI.pdf"
+  ]
+}

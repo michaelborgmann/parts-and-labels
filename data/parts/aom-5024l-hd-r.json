@@ -1,0 +1,15 @@
+{
+  "id": "microphone-285350",
+  "type": "microphone",
+  "name": "AOM-5024L-HD-R",
+  "quantity": 1,
+  "specifications": {
+    "technology": "electret"
+  },
+  "manufacturer": "PUI AUDIO",
+  "manufacturerPartNumber": "AOM-5024L-HD-R",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elektret-kondensator-mikrofonkapsel-285350",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/F100/AOM-5024L-HD-R_DB-EN.pdf"
+  ]
+}

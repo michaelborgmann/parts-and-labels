@@ -1,0 +1,246 @@
+{
+  "jfet": {
+    "channel": "Kanal",
+    "channels": { "n-channel": "N-Kanal", "p-channel": "P-Kanal" }
+  },
+  "speaker": {
+    "impedance": "Nennimpedanz",
+    "ratedPower": "Nennbelastbarkeit"
+  },
+  "microphone": {
+    "technology": "Technologie",
+    "technologies": {
+      "electret": "Elektret",
+      "dynamic": "Dynamisch",
+      "mems": "MEMS"
+    }
+  },
+  "amplifier": {
+    "form": "Ausführung",
+    "forms": {
+      "ic": "IC",
+      "module": "Modul"
+    },
+    "channelCount": "Kanäle",
+    "amplifierClass": "Verstärkerklasse",
+    "chip": "Chip"
+  },
+  "diode": {
+    "function": "Funktion",
+    "functions": {
+      "switching": "Schaltdiode",
+      "rectifier": "Gleichrichterdiode"
+    }
+  },
+  "voltageRegulator": {
+    "technology": "Technologie",
+    "technologies": {
+      "linear": "Linear",
+      "switching": "Schaltregler"
+    },
+    "outputVoltage": "Ausgangsspannung"
+  },
+  "counter": {
+    "function": "Funktion",
+    "functions": {
+      "binary": "Binärzähler",
+      "decade-seven-segment": "Dekadenzähler / 7-Segment-Ausgänge"
+    },
+    "counterCount": "Anzahl Zähler",
+    "bitsPerCounter": "Bits je Zähler"
+  },
+  "sevenSegment": {
+    "digitCount": "Stellen",
+    "commonPin": "Gemeinsamer Anschluss",
+    "commonPins": {
+      "cathode": "Kathode",
+      "anode": "Anode"
+    },
+    "digitHeight": "Ziffernhöhe"
+  },
+  "relay": {
+    "coilVoltage": "Spulenspannung",
+    "contactForm": "Kontaktfunktion",
+    "contactForms": {
+      "normally-open": "Schließer",
+      "normally-closed": "Öffner",
+      "changeover": "Wechsler"
+    },
+    "poleCount": "Pole"
+  },
+  "potentiometer": {
+    "style": "Ausführung",
+    "styles": { "rotary": "Drehpotentiometer", "trimmer": "Trimmer" },
+    "taper": "Kennlinie",
+    "tapers": {
+      "linear": "Linear",
+      "logarithmic": "Logarithmisch"
+    },
+    "gangCount": "Anzahl Widerstandsbahnen",
+    "shaftDiameter": "Achsdurchmesser"
+  },
+  "connector": {
+    "style": "Ausführung",
+    "styles": {
+      "pin-header": "Stiftleiste",
+      "socket-header": "Buchsenleiste"
+    },
+    "layout": "Reihen × Kontakte",
+    "pitch": "Rastermaß",
+    "orientation": "Ausrichtung",
+    "orientations": {
+      "straight": "Gerade",
+      "right-angle": "Gewinkelt"
+    },
+    "height": "Höhe"
+  },
+  "display": {
+    "technology": "Technologie",
+    "resolution": "Auflösung",
+    "diagonal": "Bildschirmdiagonale",
+    "controller": "Controller",
+    "interfaces": "Schnittstellen"
+  },
+  "audioModule": {
+    "codec": "Codec",
+    "compatibleWith": "Kompatibel mit",
+    "sampleRate": "Abtastrate",
+    "bitDepth": "Bittiefe"
+  },
+  "timer": {
+    "channelCount": "Anzahl Timer",
+    "technology": "Technologie",
+    "bipolar": "Bipolar"
+  },
+  "switch": {
+    "slide": "Schiebeschalter",
+    "changeover": "Wechsler (UM)",
+    "style": "Bauart",
+    "tactile": "Kurzhubtaster",
+    "action": "Betätigung",
+    "actions": {
+      "momentary": "Tastend",
+      "latching": "Rastend"
+    },
+    "contactForm": "Kontaktfunktion",
+    "normallyOpen": "Schließer (NO)",
+    "poleCount": "Polzahl",
+    "mounting": "Montage",
+    "throughHole": "Bedrahtet (THT)",
+    "dimensions": "Abmessungen (L × B × H)"
+  },
+  "icSocket": {
+    "dualLeaf": "Doppel-Federkontakt",
+    "pinCount": "Polzahl",
+    "rowSpacing": "Reihenabstand",
+    "contactType": "Kontaktausführung",
+    "contactPlating": "Kontaktbeschichtung",
+    "machined": "Gedreht",
+    "gold": "Vergoldet"
+  },
+  "logic": {
+    "inputType": "Eingangstyp",
+    "inputTypes": { "standard": "Standard", "schmitt-trigger": "Schmitt-Trigger" },
+    "family": "Logikfamilie",
+    "function": "Funktion",
+    "functions": {
+      "inverter": "Inverter",
+      "and": "AND",
+      "or": "OR",
+      "nor": "NOR",
+      "nand": "NAND"
+    },
+    "gateCount": "Anzahl Gatter",
+    "inputsPerGate": "Eingänge pro Gatter",
+    "supplyVoltageMin": "Versorgung min.",
+    "supplyVoltageMax": "Versorgung max.",
+    "nandSymbol": "Schaltzeichen eines NAND-Gatters mit zwei Eingängen; keine Pinbelegung"
+  },
+  "led": {
+    "type": "LED",
+    "color": "Farbe",
+    "diameter": "Durchmesser",
+    "mounting": "Montage",
+    "throughHole": "Bedrahtet (THT)",
+    "luminousIntensity": "Lichtstärke",
+    "viewingAngle": "Abstrahlwinkel",
+    "colors": {
+      "green": "Grün",
+      "red": "Rot",
+      "blue": "Blau",
+      "yellow": "Gelb",
+      "orange": "Orange",
+      "white": "Weiß"
+    }
+  },
+  "metadata": {
+    "description": "Bauteile erfassen, organisieren und beschriften."
+  },
+  "catalog": {
+    "eyebrow": "Deine Werkbank / Bauteilkatalog",
+    "title": "Ein Platz für jedes Bauteil.",
+    "listLabel": "Bauteilkatalog",
+    "selectionLabel": "Ausgewähltes Bauteil",
+    "empty": "Noch keine Bauteile erfasst.",
+    "unknownManufacturer": "Hersteller unbekannt",
+    "noSelection": "Kein Bauteil ausgewählt"
+  },
+  "details": {
+    "id": "Interne ID",
+    "manufacturer": "Hersteller",
+    "manufacturerPartNumber": "Hersteller-Teilenummer",
+    "stock": "Bestand",
+    "specifications": "Technische Eigenschaften",
+    "resistance": "Widerstand",
+    "tolerance": "Toleranz",
+    "bandCount": "Anzahl der Farbringe",
+    "datasheets": "Datenblätter",
+    "datasheet": "Datenblatt",
+    "productPage": "Produktseite",
+    "capacitance": "Kapazität",
+    "ratedVoltage": "Nennspannung",
+    "dielectric": "Dielektrikum",
+    "leadSpacing": "Rastermaß",
+    "polarity": "Ausführung",
+    "package": "Gehäuse",
+    "maxCollectorEmitterVoltage": "UCEO max.",
+    "maxCollectorCurrent": "IC max.",
+    "types": {
+      "speaker": "Lautsprecher",
+      "microphone": "Mikrofon",
+      "amplifier": "Audioverstärker",
+      "diode": "Diode",
+      "voltage-regulator": "Spannungsregler",
+      "counter": "Zähler-IC",
+      "seven-segment": "7-Segment-Anzeige",
+      "relay": "Relais",
+      "potentiometer": "Potentiometer",
+      "connector": "Steckverbinder",
+      "display": "Display",
+      "audio-module": "Audio-Modul",
+      "timer": "Timer-IC",
+      "switch": "Schalter / Taster",
+      "ic-socket": "IC-Sockel",
+      "logic": "Logik-IC",
+      "led": "LED",
+      "resistor": "Widerstand",
+      "capacitor": "Kondensator",
+      "bjt": "Bipolartransistor",
+      "jfet": "JFET"
+    }
+  },
+  "labels": {
+    "preview": "Label-Vorschau",
+    "previewOnly": "Vorschau · kein Druckmaßstab",
+    "calculatedBands": "Berechneter Fünfring-Farbcode",
+    "noColorCode": "Kein darstellbarer Farbcode hinterlegt.",
+    "resistorSymbols": "Widerstandssymbole: IEC-Rechteck und US-Zickzack"
+  },
+  "inventory": {
+    "unknownStock": "Bestand unbekannt",
+    "quantity": {
+      "one": "{count} Stück",
+      "other": "{count} Stück"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "resistor-11822",
+  "type": "resistor",
+  "name": "47 Ω",
+  "quantity": 10,
+  "specifications": {
+    "resistanceOhms": 47,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "manufacturer": "YAGEO",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_47_0_ohm_0207_0_6_w_1_-11822",
+  "manufacturerPartNumber": "MF0207FTE52-47R",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+  ]
+}

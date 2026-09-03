@@ -1,0 +1,19 @@
+{
+  "id": "capacitor-329838",
+  "type": "capacitor",
+  "name": "100 nF",
+  "quantity": 10,
+  "specifications": {
+    "capacitanceFarads": 1e-7,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 100,
+    "leadSpacingMm": 2.5,
+    "tolerancePercent": 10,
+    "dielectric": "X7R"
+  },
+  "manufacturer": "KOME",
+  "manufacturerPartNumber": "CC40805B6104K101PF1C1",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_100_nf_100_v_x7r_10_rm_2_5_ammo-329838"
+}

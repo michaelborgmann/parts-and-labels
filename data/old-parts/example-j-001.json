@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "sources": [],
+  "suppliers": [],
+  "label": {},
+  "facts": [],
+  "notices": [],
+  "sections": [],
+  "id": "J-001",
+  "kind": "generic",
+  "example": true,
+  "name": "Stiftleiste 1×03",
+  "category": "Steckverbinder",
+  "mark": "J",
+  "shortDescription": "Steckverbinder",
+  "description": "Einreihige, gerade Stiftleiste mit drei Kontakten.",
+  "package": {
+    "size": "Gerade · THT"
+  },
+  "specifications": [
+    {
+      "label": "Kontakte",
+      "value": "3"
+    },
+    {
+      "label": "Rastermaß",
+      "value": "2,54 mm"
+    }
+  ]
+}

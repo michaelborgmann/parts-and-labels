@@ -1,0 +1,20 @@
+{
+  "id": "u-006",
+  "type": "logic",
+  "name": "74HCT14",
+  "specifications": {
+    "family": "74HCT",
+    "function": "inverter",
+    "inputType": "schmitt-trigger",
+    "gateCount": 6,
+    "inputsPerGate": 1,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 4.5,
+    "supplyVoltageMaxVolts": 5.5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/A200/74HC14.74HCT14.pdf"
+  ],
+  "quantity": 2,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/inverter_hex_4_5_5_5_v_dil-14-3320"
+}

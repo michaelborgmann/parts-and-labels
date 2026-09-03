@@ -1,0 +1,21 @@
+{
+  "id": "logic-3121",
+  "type": "logic",
+  "name": "74HC02",
+  "quantity": 2,
+  "specifications": {
+    "family": "74HC",
+    "function": "nor",
+    "gateCount": 4,
+    "inputsPerGate": 2,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 2,
+    "supplyVoltageMaxVolts": 6
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/nor-gate_2-input_2_6_v_dil-14-3121",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "SN74HC02N",
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf"
+  ]
+}

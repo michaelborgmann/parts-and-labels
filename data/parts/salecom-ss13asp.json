@@ -1,0 +1,20 @@
+{
+  "id": "s-002",
+  "type": "switch",
+  "manufacturer": "SALECOM",
+  "manufacturerPartNumber": "T80-STS-13-A12C1R-EH",
+  "name": "SS 13ASP",
+  "specifications": {
+    "style": "slide",
+    "action": "latching",
+    "contactForm": "changeover",
+    "poleCount": 1,
+    "mounting": "through-hole",
+    "leadSpacingMm": 4.7
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/C200/DS_T80-S.pdf"
+  ],
+  "quantity": 5,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/schiebeschalter_1x_um_stehend_print_rm_4_7-112182"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "c-003",
+  "type": "capacitor",
+  "manufacturer": "PANASONIC",
+  "manufacturerPartNumber": "ECEA1HN100U",
+  "name": "10 µF · Bipolar",
+  "quantity": 5,
+  "specifications": {
+    "technology": "aluminum-electrolytic",
+    "mounting": "through-hole",
+    "capacitanceFarads": 0.00001,
+    "tolerancePercent": 20,
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2.5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/ECEA1HN-A-SU-BIPOLAR_ENG_TDS.pdf"
+  ],
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_10_uf_50_v_rm_2_5_85_c_2000h_20_-199876"
+}

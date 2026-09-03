@@ -1,0 +1,14 @@
+{
+  "id": "relay-243074",
+  "type": "relay",
+  "name": "G5V-2-H1 5DC",
+  "quantity": 1,
+  "specifications": {
+    "coilVoltageVolts": 5,
+    "coilSupply": "dc",
+    "contactForm": "changeover",
+    "poleCount": 2
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/signalrelais_thd_5_vdc_2_a_2_wechsler-243074",
+  "manufacturer": "OMRON"
+}

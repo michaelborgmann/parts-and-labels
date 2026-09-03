@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "english",
+      "label": "MF0 Series · Datenblatt (EN)",
+      "note": "Seriendatenblatt; Tabelle für MF0207. Revisionsdatum nicht festgestellt.",
+      "url": "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+    },
+    {
+      "id": "german",
+      "label": "Serie GP · Datenblatt (DE, 19.10.2000)",
+      "note": "Älteres Seriendatenblatt; Tabelle für MF0207. Abweichende Spannungs- und Maßangaben.",
+      "url": "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf"
+    },
+    {
+      "id": "retailer",
+      "label": "Reichelt · Produktseite",
+      "note": "Händlerangaben aus der bereitgestellten Produktseite.",
+      "url": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_330_ohm_0207_0_6_w_1_-11733"
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Reichelt",
+      "sku": "METALL 330",
+      "sourceId": "retailer"
+    }
+  ],
+  "label": {
+    "qrSourceId": "retailer"
+  },
+  "facts": [
+    {
+      "label": "Technologie",
+      "value": "Metallschicht",
+      "sourceId": "retailer"
+    },
+    {
+      "label": "Baureihe / Typ",
+      "value": "MF0 / MF0207",
+      "sourceId": "english"
+    },
+    {
+      "label": "Temperaturkoeffizient",
+      "value": "±50 ppm/K",
+      "sourceId": "english"
+    },
+    {
+      "label": "Betriebstemperatur",
+      "value": "−55 bis +155 °C",
+      "sourceId": "english"
+    }
+  ],
+  "notices": [
+    {
+      "title": "Spannungsangabe ungeklärt",
+      "text": "Händler und Seriendatenblätter nennen unterschiedliche Grenzen. Es wird kein einzelner Wert als verifiziert übernommen; die Angaben erscheinen nicht auf dem Label."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Leistungsreduzierung",
+      "notes": [
+        "Oberhalb 70 °C Umgebungstemperatur sinkt die zulässige Leistung laut englischem Seriendatenblatt linear bis auf 0 W bei 155 °C. Der Temperaturbereich bedeutet nicht, dass überall volle 0,6 W zulässig sind."
+      ],
+      "entries": [
+        {
+          "label": "Nennleistung gilt bei",
+          "value": 70,
+          "sourceId": "english",
+          "unit": "°C"
+        },
+        {
+          "label": "Leistung sinkt auf null bei",
+          "value": 155,
+          "sourceId": "english",
+          "unit": "°C"
+        }
+      ]
+    },
+    {
+      "title": "Spannungsangaben",
+      "notes": [
+        "Spannungsgrenzen dürfen nicht unabhängig von Verlustleistung, Temperatur und Toleranz angewendet werden."
+      ],
+      "entries": [
+        {
+          "label": "Nennspannung",
+          "value": 250,
+          "sourceId": "retailer",
+          "unit": "V",
+          "note": "DC"
+        },
+        {
+          "label": "Max. zulässige Betriebsspannung",
+          "value": 300,
+          "sourceId": "german",
+          "unit": "V",
+          "note": "effektiv"
+        },
+        {
+          "label": "Maximum Working Voltage",
+          "value": 350,
+          "sourceId": "english",
+          "unit": "V",
+          "note": "keine AC/DC-Angabe in der Tabellenzeile"
+        }
+      ]
+    },
+    {
+      "title": "Abmessungen und Werte-Reihe",
+      "notes": [
+        "Maße aus den jeweiligen MF0207-Tabellen, nicht am vorhandenen Bauteil gemessen. Die Quellen weichen voneinander ab.",
+        "330 Ω ist ein E24-Nennwert. Händlerangabe: E96. Das deutsche Datenblatt führt für MF0207 mit ±1 % E96/E24 auf. Werte-Reihe und Fertigungstoleranz sind unterschiedliche Angaben."
+      ],
+      "entries": [
+        {
+          "label": "Körperlänge",
+          "value": "6.3 ±0.5",
+          "sourceId": "english",
+          "unit": "mm"
+        },
+        {
+          "label": "Körperdurchmesser",
+          "value": "2.4 ±0.2",
+          "sourceId": "english",
+          "unit": "mm"
+        },
+        {
+          "label": "Drahtdurchmesser",
+          "value": "0.55 ±0.05",
+          "sourceId": "english",
+          "unit": "mm"
+        },
+        {
+          "label": "Körperlänge",
+          "value": "6.3 ±0.5",
+          "sourceId": "german",
+          "unit": "mm"
+        },
+        {
+          "label": "Körperdurchmesser",
+          "value": "2.3 ±0.3",
+          "sourceId": "german",
+          "unit": "mm"
+        },
+        {
+          "label": "Drahtdurchmesser",
+          "value": "0.6 (Toleranz nicht angegeben)",
+          "sourceId": "german",
+          "unit": "mm"
+        }
+      ]
+    },
+    {
+      "title": "Weitere Produkt- und Händlerangaben",
+      "notes": [
+        "Angaben laut Händler, nicht unabhängig auf Konformität oder Kennnummern geprüft. Verpackungsgewicht ist kein gemessenes Bauteilgewicht.",
+        "Händlerbeschreibung: Besonders kleine Bauform, geringes Rauschverhalten, sehr niedriger Temperaturkoeffizient und enge Toleranzen zeichnen diese Präzisions-Metallfilm-Widerstandsreihe aus."
+      ],
+      "entries": [
+        {
+          "label": "Lieferform",
+          "value": "Gegurtet",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "RoHS",
+          "value": "Konform laut Händler",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "EAN / GTIN",
+          "value": "9900000117337",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "Verpackungsgewicht",
+          "value": 0.0002,
+          "sourceId": "retailer",
+          "unit": "kg"
+        },
+        {
+          "label": "Statistische Warennummer",
+          "value": "85332100",
+          "sourceId": "retailer"
+        }
+      ]
+    },
+    {
+      "title": "Verantwortlicher EU-Wirtschaftsbeteiligter",
+      "notes": [
+        "Kontaktangaben laut Händler, keine technischen Sicherheitshinweise."
+      ],
+      "entries": [
+        {
+          "label": "Adresse",
+          "value": "Süskindstraße 4, 81929 München, DE",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "E-Mail",
+          "value": "info@yageo.com",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "Name",
+          "value": "YAGEO Europe",
+          "sourceId": "retailer"
+        },
+        {
+          "label": "Website",
+          "value": "https://www.yageo.com",
+          "sourceId": "retailer"
+        }
+      ]
+    }
+  ],
+  "id": "R-001",
+  "kind": "resistor",
+  "example": false,
+  "category": "Widerstand",
+  "mark": "R",
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0207FTE52-330R",
+  "shortDescription": "Metallschichtwiderstand",
+  "description": "Bedrahteter, axialer Metallschichtwiderstand. Seriendatenblätter verglichen; die Zuordnung zur gekauften Charge ist bei widersprüchlichen Angaben noch offen.",
+  "package": {
+    "size": "0207",
+    "leadStyle": "axial",
+    "mounting": "THT"
+  },
+  "resistor": {
+    "resistanceOhms": 330,
+    "tolerancePercent": 1,
+    "powerWatts": 0.6,
+    "bandCount": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "u-005",
+  "type": "logic",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "SN74HC14N",
+  "name": "74HC14",
+  "specifications": {
+    "family": "74HC",
+    "function": "inverter",
+    "inputType": "schmitt-trigger",
+    "gateCount": 6,
+    "inputsPerGate": 1,
+    "package": "DIP-14",
+    "supplyVoltageMinVolts": 2,
+    "supplyVoltageMaxVolts": 6
+  },
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf"
+  ],
+  "quantity": 2,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/hex-schmitt-trigger-inverter_2_6_v_dil-14-290494"
+}

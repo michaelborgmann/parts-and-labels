@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "sources": [],
+  "suppliers": [],
+  "label": {},
+  "facts": [],
+  "notices": [],
+  "sections": [],
+  "id": "C-001",
+  "kind": "generic",
+  "example": true,
+  "name": "100 nF",
+  "category": "Kondensator",
+  "mark": "C",
+  "shortDescription": "Kondensator",
+  "description": "Keramikkondensator, beispielsweise zur lokalen Entkopplung.",
+  "package": {
+    "size": "Radial · THT"
+  },
+  "specifications": [
+    {
+      "label": "Kapazität",
+      "value": "100 nF"
+    },
+    {
+      "label": "Nennspannung",
+      "value": "50 V"
+    },
+    {
+      "label": "Rastermaß",
+      "value": "2,54 mm"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "potentiometer-111805",
+  "type": "potentiometer",
+  "name": "ACP 9-SRS 25K",
+  "quantity": 1,
+  "specifications": {
+    "resistanceOhms": 25000,
+    "gangCount": 1,
+    "style": "trimmer"
+  },
+  "manufacturer": "ARAGONESA DE COMPONENTES",
+  "manufacturerPartNumber": "CA9MH2,5-25KA2020",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/einstellpotentiometer_stehend_25_kohm_9_mm-111805",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B400/DS_ACP_CA9.pdf"
+  ]
+}

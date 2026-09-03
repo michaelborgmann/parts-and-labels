@@ -1,18 +1,3 @@
-// Product data supplied by the owner from Reichelt; not a datasheet verification.
-export const yageoResistor = {
-  manufacturer: "YAGEO",
-  manufacturerPartNumber: "MF0207FTE52-330R",
-  supplierPartNumber: "METALL 330",
-  sourceUrl: "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_330_ohm_0207_0_6_w_1_-11733",
-  description: "Metallschichtwiderstand",
-  resistanceOhms: 330,
-  tolerancePercent: 1,
-  powerWatts: 0.6,
-  package: "0207",
-  purchase: { date: "2025-12-30", quantity: 20 },
-  stock: null,
-} as const;
-
 const colors = [
   ["Schwarz", "#171717"], ["Braun", "#804220"], ["Rot", "#c5272d"],
   ["Orange", "#ef8222"], ["Gelb", "#f2ce30"], ["Grün", "#287543"],
@@ -37,6 +22,3 @@ export function fiveBandCode(ohms: number, tolerance: number) {
   return [...String(Math.round(significand)).split("").map((digit) => colors[Number(digit)]), multiplier, toleranceColor]
     .map(([name, color]) => ({ name, color }));
 }
-
-export const resistanceText = `${yageoResistor.resistanceOhms} Ω`;
-export const powerText = `${String(yageoResistor.powerWatts).replace(".", ",")} W`;

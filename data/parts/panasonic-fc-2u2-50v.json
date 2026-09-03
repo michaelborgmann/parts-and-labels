@@ -1,0 +1,20 @@
+{
+  "id": "c-008",
+  "type": "capacitor",
+  "manufacturer": "PANASONIC",
+  "manufacturerPartNumber": "EEUFC1H2R2H",
+  "name": "2.2 µF",
+  "specifications": {
+    "capacitanceFarads": 0.0000022,
+    "technology": "aluminum-electrolytic",
+    "mounting": "through-hole",
+    "tolerancePercent": 20,
+    "ratedVoltageVolts": 50,
+    "leadSpacingMm": 2.5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/A-FC_ENG_TDS.pdf"
+  ],
+  "quantity": 5,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_2_2_f_50_v_105_c_low_esr_5_x_11_mm_rm_2_5-228386"
+}

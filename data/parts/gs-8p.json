@@ -1,0 +1,11 @@
+{
+  "id": "ic-socket-8231",
+  "type": "ic-socket",
+  "name": "GS 8P",
+  "quantity": 5,
+  "specifications": {
+    "pinCount": 8,
+    "contactType": "machined"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/ic-sockel_8-polig_superflach_gedreht-8231"
+}

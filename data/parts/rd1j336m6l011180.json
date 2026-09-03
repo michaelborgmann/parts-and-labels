@@ -1,0 +1,20 @@
+{
+  "id": "capacitor-359236",
+  "type": "capacitor",
+  "name": "33 µF",
+  "quantity": 5,
+  "specifications": {
+    "capacitanceFarads": 0.000033,
+    "technology": "aluminium-electrolytic",
+    "construction": "radial",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 63,
+    "leadSpacingMm": 2.5
+  },
+  "manufacturer": "SAMWHA",
+  "manufacturerPartNumber": "RD1J336M6L011BB180",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/elko_radial_33_f_63_v_105_rm_2_5-359236",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/RD.pdf"
+  ]
+}

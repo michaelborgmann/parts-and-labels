@@ -1,0 +1,18 @@
+{
+  "id": "r-012",
+  "type": "resistor",
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0207FTE52-470R",
+  "name": "470 Ω",
+  "specifications": {
+    "resistanceOhms": 470,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf",
+    "https://cdn-reichelt.de/documents/datenblatt/B400/METALL~YAG.pdf"
+  ],
+  "quantity": 40,
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_470_ohm_0207_0_6_w_1_-11826"
+}

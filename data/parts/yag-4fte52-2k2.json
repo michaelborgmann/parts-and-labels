@@ -1,0 +1,17 @@
+{
+  "id": "resistor-236968",
+  "type": "resistor",
+  "name": "2.2 kΩ",
+  "quantity": 10,
+  "specifications": {
+    "resistanceOhms": 2200,
+    "tolerancePercent": 1,
+    "bandCount": 5
+  },
+  "manufacturer": "YAGEO",
+  "manufacturerPartNumber": "MF0204FTE52-2K2",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/widerstand_metallschicht_2_2_kohm_0204_0_4_w_1_-236968",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/2MFXX_ENG_TDS.pdf"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "counter-12585",
+  "type": "counter",
+  "name": "4026",
+  "quantity": 2,
+  "specifications": {
+    "function": "decade-seven-segment",
+    "counterCount": 1,
+    "package": "DIP-16"
+  },
+  "link": "https://www.reichelt.de/de/de/shop/produkt/counter_5-bit_3_15_v_dip-16-12585",
+  "manufacturer": "TEXAS INSTRUMENTS",
+  "manufacturerPartNumber": "CD4026BE",
+  "datasheets": [
+    "https://www.ti.com/lit/ds/symlink/cd4026b.pdf"
+  ]
+}

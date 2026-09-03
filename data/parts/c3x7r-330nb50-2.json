@@ -1,0 +1,19 @@
+{
+  "id": "capacitor-393658",
+  "type": "capacitor",
+  "name": "330 nF",
+  "quantity": 2,
+  "specifications": {
+    "capacitanceFarads": 3.3e-7,
+    "technology": "ceramic",
+    "construction": "multilayer",
+    "mounting": "through-hole",
+    "ratedVoltageVolts": 50
+  },
+  "manufacturer": "KEMET",
+  "manufacturerPartNumber": "C322C334K5R5TA",
+  "link": "https://www.reichelt.de/de/de/shop/produkt/vielschicht-kerko_330nf_50v_125_c-393658",
+  "datasheets": [
+    "https://cdn-reichelt.de/documents/datenblatt/B300/KEM_C3XX_X7R_DB-EN.pdf"
+  ]
+}
