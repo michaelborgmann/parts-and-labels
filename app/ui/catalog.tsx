@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Part } from "../../lib/catalog/schema";
 import type { Locale, Messages } from "../../lib/i18n";
-import { PartDetails } from "./part-details";
-import { LabelPreview } from "./label-preview";
+import { CatalogDetail } from "./catalog-detail";
+import { CatalogSidebar } from "./catalog-sidebar";
 
 type CatalogProps = {
   parts: Part[];
@@ -16,71 +16,54 @@ export function Catalog({ parts, locale, messages }: CatalogProps) {
   const [selectedId, setSelectedId] = useState<string | null>(
     parts[0]?.id ?? null,
   );
-
+  const [mobileDetailOpen, setMobileDetailOpen] = useState(false);
+  const detailRef = useRef<HTMLDivElement>(null);
   const selectedPart = parts.find((part) => part.id === selectedId);
 
+  useEffect(() => {
+    detailRef.current?.scrollTo({ top: 0 });
+  }, [selectedId]);
+
+  function selectPart(id: string) {
+    setSelectedId(id);
+    setMobileDetailOpen(true);
+  }
+
   return (
-    <>
+    <div className="app-shell">
       <header className="topbar">
         <div className="brand">
           parts<span>+</span>labels
         </div>
       </header>
 
-      <main className="workspace">
+      <main
+        className="workspace catalog-shell"
+        data-mobile-detail={mobileDetailOpen}
+      >
         <div className="intro">
           <p className="eyebrow">{messages.catalog.eyebrow}</p>
           <h1>{messages.catalog.title}</h1>
         </div>
 
         <div className="columns">
-          <section className="panel" aria-label={messages.catalog.listLabel}>
-            <ul className="part-list">
-              {parts.map((part) => (
-                <li key={part.id}>
-                  <button
-                    className="part-button"
-                    aria-pressed={part.id === selectedId}
-                    onClick={() => setSelectedId(part.id)}
-                  >
-                    <span>
-                      <span className="part-title">{part.name}</span>
-                      <span className="part-meta">
-                        {part.manufacturer ?? messages.catalog.unknownManufacturer}
-                      </span>
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
+          <CatalogSidebar
+            parts={parts}
+            selectedId={selectedId}
+            locale={locale}
+            messages={messages}
+            onSelect={selectPart}
+          />
 
-            {parts.length === 0 && (
-              <p className="empty">{messages.catalog.empty}</p>
-            )}
-          </section>
-
-          {selectedPart ? (
-            <div>
-              <PartDetails
-                part={selectedPart}
-                locale={locale}
-                messages={messages}
-              />
-              <LabelPreview
-                part={selectedPart}
-                locale={locale}
-                messages={messages}
-              />
-            </div>
-          ) : (
-            <section className="panel" aria-label={messages.catalog.selectionLabel}>
-              <div className="detail-heading">
-                <h2>{messages.catalog.noSelection}</h2>
-              </div>
-            </section>
-          )}
+          <CatalogDetail
+            ref={detailRef}
+            part={selectedPart}
+            locale={locale}
+            messages={messages}
+            onBack={() => setMobileDetailOpen(false)}
+          />
         </div>
       </main>
-    </>
+    </div>
   );
 }

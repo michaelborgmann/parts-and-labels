@@ -16,6 +16,8 @@
     }
   },
   "amplifier": {
+    "function": "Funktion",
+    "functions": { "audio": "Audioverstärker", "operational": "Operationsverstärker" },
     "form": "Ausführung",
     "forms": {
       "ic": "IC",
@@ -80,10 +82,17 @@
     "shaftDiameter": "Achsdurchmesser"
   },
   "connector": {
+    "diameter": "Durchmesser",
+    "contactCount": "Signalkontakte",
+    "switched": "Schaltkontakt",
+    "yes": "Ja",
+    "no": "Nein",
     "style": "Ausführung",
     "styles": {
       "pin-header": "Stiftleiste",
-      "socket-header": "Buchsenleiste"
+      "socket-header": "Buchsenleiste",
+      "battery-clip": "Batterieclip",
+      "audio-jack": "Klinkenbuchse"
     },
     "layout": "Reihen × Kontakte",
     "pitch": "Rastermaß",
@@ -113,6 +122,8 @@
     "bipolar": "Bipolar"
   },
   "switch": {
+    "toggle": "Kippschalter",
+    "pushbutton": "Drucktaster",
     "slide": "Schiebeschalter",
     "changeover": "Wechsler (UM)",
     "style": "Bauart",
@@ -183,7 +194,13 @@
     "selectionLabel": "Ausgewähltes Bauteil",
     "empty": "Noch keine Bauteile erfasst.",
     "unknownManufacturer": "Hersteller unbekannt",
-    "noSelection": "Kein Bauteil ausgewählt"
+    "noSelection": "Kein Bauteil ausgewählt",
+    "searchLabel": "Bauteile durchsuchen",
+    "searchPlaceholder": "Wert, Typ, Hersteller oder Teilenummer",
+    "clearSearch": "Suche löschen",
+    "resultCount": "{count} von {total} Bauteilen",
+    "noResults": "Keine passenden Bauteile gefunden.",
+    "backToCatalog": "Zurück zum Katalog"
   },
   "details": {
     "id": "Interne ID",

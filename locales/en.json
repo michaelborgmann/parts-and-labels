@@ -16,6 +16,8 @@
     }
   },
   "amplifier": {
+    "function": "Function",
+    "functions": { "audio": "Audio amplifier", "operational": "Operational amplifier" },
     "form": "Form",
     "forms": {
       "ic": "IC",
@@ -80,10 +82,17 @@
     "shaftDiameter": "Shaft diameter"
   },
   "connector": {
+    "diameter": "Diameter",
+    "contactCount": "Signal contacts",
+    "switched": "Switch contact",
+    "yes": "Yes",
+    "no": "No",
     "style": "Style",
     "styles": {
       "pin-header": "Pin header",
-      "socket-header": "Socket header"
+      "socket-header": "Socket header",
+      "battery-clip": "Battery clip",
+      "audio-jack": "Audio jack"
     },
     "layout": "Rows × contacts",
     "pitch": "Pitch",
@@ -113,6 +122,8 @@
     "bipolar": "Bipolar"
   },
   "switch": {
+    "toggle": "Toggle switch",
+    "pushbutton": "Pushbutton",
     "slide": "Slide switch",
     "changeover": "Changeover (SPDT for one pole)",
     "style": "Style",
@@ -183,7 +194,13 @@
     "selectionLabel": "Selected part",
     "empty": "No parts added yet.",
     "unknownManufacturer": "Unknown manufacturer",
-    "noSelection": "No part selected"
+    "noSelection": "No part selected",
+    "searchLabel": "Search parts",
+    "searchPlaceholder": "Value, type, manufacturer or part number",
+    "clearSearch": "Clear search",
+    "resultCount": "{count} of {total} parts",
+    "noResults": "No matching parts found.",
+    "backToCatalog": "Back to catalog"
   },
   "details": {
     "id": "Internal ID",
